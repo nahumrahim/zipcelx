@@ -10,7 +10,7 @@ export default (cell, index, rowIndex) => {
 
   return (
     cell.type === CELL_TYPE_STRING
-    ? generatorStringCell(index, cell.value, rowIndex)
-    : generatorNumberCell(index, cell.value, rowIndex)
+    ? generatorStringCell(index, cell, rowIndex)
+    : generatorNumberCell(index, cell, rowIndex)
   );
 };
