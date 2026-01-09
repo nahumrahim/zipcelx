@@ -4,4 +4,5 @@ export default `<?xml version="1.0" ?>
 <Default ContentType="application/vnd.openxmlformats-package.relationships+xml" Extension="rels"/>
 <Override ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml" PartName="/xl/worksheets/sheet1.xml"/>
 <Override ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml" PartName="/xl/workbook.xml"/>
+<Override ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml" PartName="/xl/styles.xml"/>
 </Types>`;

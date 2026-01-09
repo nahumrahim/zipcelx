@@ -8,7 +8,7 @@ console.warn = jest.genMockFn();
 
 describe('Format Cell', () => {
   describe('Create a cell of type sting', () => {
-    const expectedXML = '<c r="A1" t="inlineStr"><is><t>Test</t></is></c>';
+    const expectedXML = '<c r="A1" t="inlineStr" s="0"><is><t>Test</t></is></c>';
 
     it('Should fallback to string if invalid type was supplied', () => {
       const cell = Object.assign({}, cells[0], { type: 'date' });
@@ -23,7 +23,7 @@ describe('Format Cell', () => {
   });
 
   describe('Create a cell of type number', () => {
-    const expectedXML = '<c r="B1"><v>1000</v></c>';
+    const expectedXML = '<c r="B1" s="0"><v>1000</v></c>';
     it('Create cell', () => {
       expect(formatCell(cells[1], 1, 1)).toBe(expectedXML);
     });

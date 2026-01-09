@@ -3,12 +3,11 @@ zipcelx
 
 Lightweight JSON to xlsx creation in browser
 
-## Table of contents
-1. [How to use](https://github.com/dixieio/zipcelx/wiki/How-to-use)
-2. [The config object](https://github.com/dixieio/zipcelx/wiki/The-config-object)
-3. [Contributing](https://github.com/dixieio/zipcelx/wiki/Contributing)
+Forked from [https://github.com/egeriis/zipcelx](https://github.com/egeriis/zipcelx)
+
+## Added
+1. Add support for predefined styles: 
+  * Column attributes can be defined in first row: isHeader, width.
+  * Header background can be defined in config
 
 ## Issues
-Should it happen that the tool broke down on you please head to our [Issue tracker](https://github.com/dixieio/zipcelx/issues)
-1. Search if the issue is already discussed or explained.
-2. If no luck feel free to open a new issue and we will get back to you as soon as possible.
